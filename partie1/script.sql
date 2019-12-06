@@ -10,3 +10,9 @@ CREATE DATABASE IF NOT EXISTS `webDevelopment` CHARACTER SET 'utf8' ;
 --Exercice 3
 --Création d'une base de donnée nommée framework avec l'encodage utf8
 CREATE DATABASE IF NOT EXISTS `framework` CHARACTER SET 'utf8'
+--Exercice 4
+--Supprimer une base de donnée
+DROP DATABASE `languages` ;
+--Exercice 5
+--Supprimer une base de donnée si elle existe
+DROP DATABASE IF EXISTS `framework` ;
